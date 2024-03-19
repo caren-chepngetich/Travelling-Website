@@ -1,0 +1,50 @@
+#container{
+    background-color: black;
+    color: white;
+}
+
+
+
+.nature{
+    background-image: url("https://cdn.bhdw.net/im/fantasy-night-deer-wallpaper-82911_w635.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    text-align: center;
+    height: 400px;
+    padding-top: 30%;
+    color: white;
+
+
+}
+#images{
+    height: 10px;
+    width: 10;
+}
+#reason{
+    text-align: center;
+}
+#beach{
+    display: flex;
+    gap: 3%;
+}
+#bali{
+    display: flex;
+    gap: 5%;
+}
+
+#ul{
+    display: flex;
+    gap: 15%;
+}
+#imgfall{
+height: 500px;
+width: 500px;
+background-image: url("");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: local;
+text-align: center;
+height: 400px;
+color: white;
+}
