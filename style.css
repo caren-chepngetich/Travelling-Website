@@ -36,15 +36,63 @@
 #ul{
     display: flex;
     gap: 15%;
+   
 }
+
 #imgfall{
-height: 500px;
-width: 500px;
-background-image: url("");
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: local;
-text-align: center;
-height: 400px;
-color: white;
+display: flex;
+gap: 5%;
+}
+#spa{
+    display: flex;
+    gap: 20px;
+}
+#heritage{
+    display: flex;
+    gap: 20px;
+}
+#guides{
+    display: flex;
+}
+#text{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#jessy{
+    display: flex;
+}
+#par{
+    display: flex;
+}
+#info{
+    display: flex;
+    gap: 20px;
+}
+#bali{
+    display: flex;
+}
+#bride{
+    display: flex;
+    gap: 3%;
+    margin-bottom: 20px;
+}
+#cultural{
+margin-bottom: 10px;
+}
+#button{
+    margin-bottom: 20px;
+}
+#temple{
+    display: flex;
+}
+#p{
+    display: flex;
+}
+#img{
+    display: flex;
+    color: white;
+}
+#call{
+display: flex;
+gap: 5%;
 }
