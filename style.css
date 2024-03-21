@@ -1,6 +1,6 @@
-#container{
-    background-color: black;
-    color: white;
+body{
+    background-color: lightblue;
+    justify-content: space-evenly;
 }
 
 
@@ -12,10 +12,17 @@
     background-attachment: local;
     text-align: center;
     height: 400px;
-    padding-top: 30%;
-    color: white;
+    margin-bottom: 50px; 
+    color: white;  
 
 
+} 
+#tour{
+    gap: 20px;
+}
+
+#balli{
+    width: 500px;
 }
 #images{
     height: 10px;
@@ -26,33 +33,34 @@
 }
 #beach{
     display: flex;
-    gap: 3%;
+    justify-content: space-evenly;
 }
 #bali{
     display: flex;
-    gap: 5%;
+    gap: 30px;
 }
 
 #ul{
     display: flex;
-    gap: 15%;
+    gap: 400px;
    
 }
 
 #imgfall{
 display: flex;
-gap: 5%;
+gap: 400px;
 }
 #spa{
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly;
 }
 #heritage{
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly;
 }
 #guides{
     display: flex;
+    justify-content: space-evenly;
 }
 #text{
     text-align: center;
@@ -64,20 +72,21 @@ gap: 5%;
 #par{
     display: flex;
 }
-#info{
+.info{
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly;
 }
-#bali{
+.bali{
     display: flex;
 }
 #bride{
     display: flex;
-    gap: 3%;
-    margin-bottom: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 #cultural{
 margin-bottom: 10px;
+justify-content: space-evenly;
 }
 #button{
     margin-bottom: 20px;
@@ -94,5 +103,56 @@ margin-bottom: 10px;
 }
 #call{
 display: flex;
-gap: 5%;
+gap: 50px;
+}
+#line{
+    border-right: 6px groove;
+    min-height: 500px;
+}
+#solid{
+    border-top:1px solid
+    
+}
+@media screen and (max-width :768px){
+    #beach{
+        flex-direction: column;
+        gap: none;
+    }
+
+    #call{
+        flex-direction: column;
+        gap: 50px;
+   
+}
+#bride{
+flex-direction: column;
+
+}
+#temple{
+    flex-direction: column;
+}
+#guides{
+    flex-direction: column;
+
+}
+#bali{
+    flex-direction: column;
+}
+#spa{
+    flex-direction: column;
+
+}
+
+
+}
+@media screen and (max-width:969){
+    #guides{
+        flex-direction: column;
+        height: 5px;
+} 
+.info{
+    flex-wrap: wrap;
+    
+}
+ 
 }
