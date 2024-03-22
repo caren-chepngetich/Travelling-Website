@@ -1,6 +1,8 @@
 body{
-    background-color: lightblue;
+    background-color: pink;
     justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 
@@ -42,35 +44,39 @@ body{
 
 #ul{
     display: flex;
-    gap: 400px;
+    gap: 200px;
    
 }
 
 #imgfall{
 display: flex;
-gap: 400px;
+gap: 100px;
 }
 #spa{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 #heritage{
     display: flex;
     justify-content: space-evenly;
 }
 #guides{
-    display: flex;
+    display:flex;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 #text{
     text-align: center;
     margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #jessy{
     display: flex;
 }
 #par{
     display: flex;
+    gap: 150px;
 }
 .info{
     display: flex;
@@ -83,6 +89,11 @@ gap: 400px;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 100px;
+    gap: 20px;
+}
+#buttonn{
+    background-color: blue;
+    color: white;
 }
 #cultural{
 margin-bottom: 10px;
@@ -109,14 +120,22 @@ gap: 50px;
     border-right: 6px groove;
     min-height: 500px;
 }
+#water{
+    width: 500px;
+    justify-content: space-evenly;
+}
 #solid{
     border-top:1px solid
     
+    
 }
-@media screen and (max-width :768px){
+#about{
+    text-align: center;
+}
+@media screen and (min-width:375px)and (max-width :768px){
     #beach{
         flex-direction: column;
-        gap: none;
+       
     }
 
     #call{
@@ -145,7 +164,8 @@ flex-direction: column;
 
 
 }
-@media screen and (max-width:969){
+
+@media screen and  (min-width:495px_)and (max-width:969px){
     #guides{
         flex-direction: column;
         height: 5px;
