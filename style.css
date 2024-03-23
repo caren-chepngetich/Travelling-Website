@@ -132,6 +132,16 @@ gap: 50px;
 #about{
     text-align: center;
 }
+#table{
+   border-collapse: separate;border:1px;
+   th{border: 1px solid;}
+   td{border: 1px solid;}
+   border: solid 1px; width: 400px;
+
+
+}
+
+
 @media screen and (min-width:375px)and (max-width :768px){
     #beach{
         flex-direction: column;
