@@ -6,7 +6,6 @@ body{
 }
 
 
-
 .nature{
     background-image: url("https://cdn.bhdw.net/im/fantasy-night-deer-wallpaper-82911_w635.webp");
     background-position: center;
@@ -129,18 +128,37 @@ gap: 50px;
     
     
 }
+
 #about{
     text-align: center;
 }
-#table{
-   border-collapse: separate;border:1px;
-   th{border: 1px solid;}
-   td{border: 1px solid;}
-   border: solid 1px; width: 400px;
+table, th, td {
+    border: 1px solid;
+    
+  }
 
-
+#form{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 }
-
+#lion{
+    gap: 30px;
+    width: 100px;
+    display: flex;
+    margin-bottom: 50px;
+  
+}
+#lions2{
+    display: flex;
+    gap: 30px;
+    width: 100px;
+    height: 100px;
+}
+#animal{
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 @media screen and (min-width:375px)and (max-width :768px){
     #beach{

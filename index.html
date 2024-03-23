@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelling Website</title>
     <link rel="stylesheet" href="style.css">
+    <p>Go to <a href="Records.html">Survey</a></p>
+    <div class="color-panel">
+        <button id="colorButton">Choose Background</button>
+    </div>
 </head>
 <body>
     <div id="container">
@@ -18,11 +22,13 @@
       <a href="GALLERY">GALLERY</a>
       <a href="ABOUT US">ABOUT US</a>
       <a href="CONTACT">CONTACT</a>
+     
       </div>
       <div id="images">
       <img src="Images/twitter.webp" alt="twitter icon">
       <img src="Images/whatsapp.webp" alt="whatsapp icon">
       <img src="Images/instagram.webp" alt="instagram icon">
+      
     </div>
     <img src="" alt="" id="balli">
     <h3>LET US PLAN A GREAT OCCASION FOR YOU.</h3><br>
@@ -429,18 +435,28 @@
 
     </div>
      <div id="pair">
-        <p id="par">
+        
             8 (800) 600-23-90<br>
             Free call
             <div id="img">
-            <img src="Images/instagram.webp" alt="instagram icon">
+            <img src="Images/insta.webp" alt="instagram icon">
             <img src="Images/whatsapp.webp" alt="whatsapp icon">
             <img src="Images/twitter.webp" alt="twitter icon">
         </div>
           info@travel.com
           Sales Department
-        </p>
+       
      </div>
     </div>
+    <script>
+        constcolorButton = document.getElementById('colorButton');
+
+    colorButton.addEventListener('click',function(){
+        const colors = ['pink','#ff6347','#ffao7a','#00bfff','#32cd32','#9370db'];
+    
+    const randomColor = colors[Math.floor(Math.random()*colors.length)];
+documents.body.style.backgroundColor = randomColor;}
+    );
+    </script>
 </body>
 </html>
