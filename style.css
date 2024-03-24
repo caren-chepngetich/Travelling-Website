@@ -21,7 +21,24 @@ body{
 #tour{
     gap: 20px;
 }
-
+#ka{
+    display: flex;
+    flex: auto auto auto auto;
+    gap: 30px;
+    
+}
+#ngare{
+    width: 100px;
+}
+#sa{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+#tz{
+    display: flex;
+    gap: 30px;
+}
 #balli{
     width: 500px;
 }
@@ -152,8 +169,7 @@ table, th, td {
 #lions2{
     display: flex;
     gap: 30px;
-    width: 100px;
-    height: 100px;
+   flex: auto auto auto auto;
 }
 #animal{
     text-align: center;
