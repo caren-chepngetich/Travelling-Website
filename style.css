@@ -168,6 +168,10 @@ table, th, td {
     margin-bottom: 50px;
   
 }
+#pair{
+    display: flex;
+    gap: 30px;
+}
 #lions2{
     display: flex;
     gap: 30px;
@@ -176,6 +180,9 @@ table, th, td {
 #animal{
     text-align: center;
     margin-bottom: 50px;
+}
+#insta{
+    width: 20px;
 }
 
 @media screen and (min-width:375px)and (max-width :768px){
