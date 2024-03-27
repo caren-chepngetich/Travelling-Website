@@ -194,6 +194,7 @@ table, th, td {
 }
 
 
+
 @media screen and (min-width:375px)and (max-width :768px){
     #beach{
         flex-direction: column;
@@ -223,8 +224,21 @@ flex-direction: column;
     flex-direction: column;
 
 }
-
-
+#pair{
+    display: flex;
+   
+}
+#img{
+    display: flex;
+    flex-direction: column;
+}
+#whatsapp{
+    width:30px;
+   
+}
+#icon{
+    width: 30px;
+}
 }
 
 @media screen and  (min-width:495px_)and (max-width:969px){
