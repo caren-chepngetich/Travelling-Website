@@ -9,7 +9,8 @@ while n != guess:
     elif guess > n:
             print("Too high!")
             guess = int(input("Enter number again"))
-    else:
+    else
+         
     break
 print("you guessed it right")
 
