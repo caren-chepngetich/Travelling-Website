@@ -438,21 +438,18 @@
        
      </div>
     </div>
-    <script>
-        constcolorButton = document.getElementById('colorButton');
+   
+    // Kotlin
+  fun main(){
+    var name = Name("April","New Month",2024)
+    println(name.month)
 
-    colorButton.addEventListener('click',function(){
-        const colors = ['pink','#ff6347','#ffao7a','#00bfff','#32cd32','#9370db'];
-    
-    const randomColor = colors[Math.floor(Math.random()*colors.length)];
-documents.body.style.backgroundColor = randomColor;}
-    );
-    </script>
-fun main(){
-   data(month:"January","February","March"1222,)
 }
 
-class Data(var name:String, var num:Int)
-println(Data)
+data class Name(var month: String,
+           var name:String,
+           var num:Int
+)
+
 </body>
 </html>
